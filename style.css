@@ -4,17 +4,19 @@
     font-family: light;
     src: url(fonts/Montserrat-Light.ttf);
 }
+
 @font-face {
     font-family: regular;
     src: url(fonts/Montserrat-Regular.ttf);
 }
+
 @font-face {
     font-family: bolde;
     src: url(fonts/Montserrat-SemiBold.ttf);
 }
 
-:root{
-/*paleta de cores*/
+:root {
+    /*paleta de cores*/
     --lilasescuro: #890EAD;
     --amareloescuro: #FAC035;
     --lilasclaro: #CB2DFA;
@@ -23,29 +25,31 @@
 }
 
 /*reset*/
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
 /*estilo header*/
-body{
-    max-width: 1800px;
+body {
+    max-width: 1500px;
+    margin: 0px auto;
     background-image: linear-gradient(to left, #890EAD, #CB2DFA);
 
 }
-.contentheader{
+
+.contentheader {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     margin-left: 30px;
-    margin-right: 30px;  
+    margin-right: 30px;
 }
 
 /*estilo logo*/
-.logo{
+.logo {
     font-family: regular;
     text-decoration: none;
     font-size: 1.5rem;
@@ -54,18 +58,20 @@ body{
     margin: 20px;
     padding: 5px;
 }
-.logo:hover{
+
+.logo:hover {
     color: var(--tiffane);
     transition: 0.5s;
     border-left: 2px solid var(--tiffane);
 }
 
 /*estilo navegação*/
-.navbar ul{
+.navbar ul {
     display: flex;
 }
 
-.navbar li, a{
+.navbar li,
+a {
     list-style: none;
     text-decoration: none;
     font-family: regular;
@@ -73,14 +79,15 @@ body{
     color: white;
     padding: 10px;
 }
-.navbar a:hover{
+
+.navbar a:hover {
     color: var(--tiffane);
     transition: 0.5s;
     border-left: 2px solid var(--tiffane);
 }
 
 /*estilo contener banner*/
-.contentbanner{
+.contentbanner {
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -88,19 +95,20 @@ body{
 }
 
 /*estilo contener textos - botão*/
-.contenttexto{
-    max-width: 40vw;
-    padding: 30px;
+.contenttexto {
+    width: 50%;
+    padding: 50px;
+    margin: 0px auto;
 }
 
-.contenttexto h1{
+.contenttexto h1 {
     font-family: bolde;
     color: var(--tiffane);
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.171);
 }
 
-.contenttexto h2{
+.contenttexto h2 {
     font-family: light;
     color: white;
     font-size: 1.5rem;
@@ -109,17 +117,18 @@ body{
 }
 
 /*estilo contener imagem*/
-.contentimg{
-    width: 40%;
+.contentimg {
+    width: 50%;
     text-align: center;
 }
-.imgbanner{
+
+.imgbanner {
     width: 400px;
     margin-top: 10px;
 }
 
-/*estilo contener imagem*/
-.bts{
+/*estilo contener botão*/
+.bts {
     font-family: bolde;
     padding: 10px 30px;
     border: none;
@@ -129,7 +138,7 @@ body{
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.26);
 }
 
-.bts:hover{
+.bts:hover {
     color: white;
     background-color: var(--tiffane);
 }

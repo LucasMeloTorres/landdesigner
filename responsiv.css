@@ -1,6 +1,35 @@
 @charset "UTF-8";
 
 /*media queries*/
-@media screen {
-    
+@media (max-width: 910px) {
+    .contentbanner{
+        flex-direction: column;
+    }
+
+/*estilo caixa contener*/
+    .contentbanner{
+        margin-top: 10px;
+    }
+
+/*estilo contener texto*/
+    .contenttexto {
+        max-width: 80vw;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+/*estilo contener texto h1*/
+    .contenttexto h1 {
+        font-family: bolde;
+        color: var(--tiffane);
+        font-size: 3.5rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.171);
+    }
+
+/*estilo contener imagem*/
+.contentimg {
+    width: 100%;
+    margin-left: 150px;
+    order: -1; /*mudando a ordem da imagem como conteiner 1*/
+}
 }
