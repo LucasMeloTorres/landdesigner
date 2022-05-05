@@ -29,7 +29,6 @@
 /*estilo contener imagem*/
 .contentimg {
     width: 100%;
-    margin-left: 150px;
     order: -1; /*mudando a ordem da imagem como conteiner 1*/
 }
 }
