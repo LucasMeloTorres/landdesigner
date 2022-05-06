@@ -20,6 +20,8 @@
 
 /*estilo contener texto h1*/
     .contenttexto h1 {
+        background-color: brown;
+        width: 100vw;
         font-family: bolde;
         color: var(--tiffane);
         font-size: 3.5rem;
